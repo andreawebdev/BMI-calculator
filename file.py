@@ -6,5 +6,9 @@ weight_one=float(weight)
 height_one_square=height_one**2
 bmi= weight_one/height_one_square
 bmi_bis=int(bmi)
-bmi_tris= str(bmi_bis)
-print("Your BMI is" +" "+ bmi_tris)
+print(f"Your BMI is: {bmi_bis}")
+if bmi_bis > 5:
+    print(("You are in a bad-shape"))
+else:
+    print("You are in a good shape")
+   
